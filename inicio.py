@@ -1,8 +1,13 @@
 
 import numpy as np
 
+# OPERADOR AND
+# saidas = np.array([0,0,0,1])
+
+# OOPERADOR OUR
+saidas = np.array([0,1,1,1])
+
 entradas = np.array([[0,0],[0,1],[1,0],[1,1]])
-saidas = np.array([0,0,0,1])
 pesos = np.array([0.0,0.0])
 taxaAprendizagem = 0.1
 
