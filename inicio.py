@@ -4,8 +4,11 @@ import numpy as np
 # OPERADOR AND
 # saidas = np.array([0,0,0,1])
 
-# OOPERADOR OUR
+# OOPERADOR OR
 saidas = np.array([0,1,1,1])
+
+# OOPERADOR XOR - não linearmente separavel
+# saidas = np.array([0,1,1,0])
 
 entradas = np.array([[0,0],[0,1],[1,0],[1,1]])
 pesos = np.array([0.0,0.0])
